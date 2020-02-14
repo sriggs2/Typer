@@ -1,0 +1,9 @@
+mouse position xOne 0
+mouse position yOne 10
+jumpOne 30
+jumpTwo 40
+mouse position xTwo 0
+mouse position yTwo 24
+sleep time per move 1
+sleep time after enter 1
+left shift 75
