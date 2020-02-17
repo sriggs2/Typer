@@ -1,0 +1,29 @@
+ADVANCES		40
+Comdata Funded fee	34
+DEF			77
+FUEL OPERATOR		63
+Reefer Fuel Leased	69
+OPERATOR REPAIR		77
+TRACTOR PMTS		13
+MAINTENANCE ESCROW	105
+BOBTAIL INSUR		28
+Occupational / Accidental	31
+FED HWY USE TAX		67
+PHY DAMAGE INS		28
+LICENSE & FEES		60
+Document Scanning	34
+Base Message		55
+Deductible Reduction	28
+Lease OP TV charge	68
+TRUCK WASH		77
+TOLLS			59
+Check Charge		34
+SPECIAL REQUEST ESCROW	105
+Fuel Surcharge Owner	70
+REEFER FUEL REIMB	107
+Reefer Fuel Discount	969
+Tractor Fuel Discount	963
+FUEL TAX		20
+TOLL REIMB		107
+Leased Percentage Pay	10
+Reefer Fuel Surcharge	70
