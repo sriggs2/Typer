@@ -17,9 +17,9 @@ def buttonClick(txt):
     #Roadrunner
     if arrangeA.count("Roadrunner") > 0:
         dataEntries = roadrunner(arrangeA)
-    if arrangeA.count("KAG"):        
+    elif arrangeA.count("KAG"):        
         dataEntries = kenan(arrangeA)
-    if arrangeA.count("Henderson"):
+    elif arrangeA.count("Henderson"):
         dataEntries = henderson(arrangeA)
     keyBoardEnter(dataEntries)
 
@@ -47,7 +47,9 @@ def hendersonReads(arrangeA):
     truckLoad = False
     for item in arrangeA:
 
-
+        if str(re.search("[A-Za-z]", item)) != "None" and str(re.search("[\d]", item)) != "None":
+            item = re.sub("[\d]", "",item.replace("$", "").replace(".", ""))
+            
 
         #when to read items
         if item.lower() == "deductions/earnings":
@@ -72,10 +74,18 @@ def hendersonReads(arrangeA):
     #last part of settlement
     runningTotal = 0
     for item in arrangeA:
+
+        #print("Item: " + item + " Letters: " + str(str(re.search("[A-Za-z]", item)) != "None") + " Numbers: " + str(str(re.search("[\d]", item)) != "None"))
+
         
-        if item == "DEDUCTIONS":
+        
+        if item == "DEDUCTIONS": 
             truckLoad = True
             reading = False
+        if str(re.search("[A-Za-z]", item)) != "None" and str(re.search("[\d]", item)) != "None":
+            item = re.sub("[\d]", "",item.replace("$", "").replace(".", ""))
+            print(item)
+            
         if item.count("$")>0 and truckLoad == True:
             if float(item.replace("$", "").replace(",", "")) == runningTotal:
                 runningTotal = 0
@@ -171,7 +181,7 @@ def hendersonCodes(dataEntries):
         fileContent.append(line)
     file.close()
     i = 0
-    while i < len(dataEntries[0]):
+    while i < len(dataEntries[1]):
         
         for x in fileContent:
 
@@ -181,7 +191,9 @@ def hendersonCodes(dataEntries):
                     dataEntries[1].insert(i+1, 67)
                     dataEntries[2].insert(i+1, 12)
                     dataEntries[0].insert(i+1, "")
-                    i = i + 2
+                    if i < len(dataEntries[1]) - 2:
+                        i = i + 2
+                     
 
 
             
@@ -202,6 +214,8 @@ def hendersonCodes(dataEntries):
             if OMG.find(why) >= 0:
                 dataEntries[1][i] = re.sub("[^0-9.]", "", x)
 
+            
+
 
             
         # reimbusements to change code at roadrunnerExcept()     
@@ -211,14 +225,6 @@ def hendersonCodes(dataEntries):
 
         
         i = i + 1
-
-
-
-
-
-
-
-
 
 
     return dataEntries
@@ -232,6 +238,10 @@ def hendersonExcept(dataEntries):
 
         if dataEntries[1][i] == "963":
             dataEntries[1][i] = "63"
+            dataEntries[2][i] = -abs(dataEntries[2][i])
+
+        if dataEntries[1][i] == "9105":
+            dataEntries[1][i] = "105"
             dataEntries[2][i] = -abs(dataEntries[2][i])
 
         i = i + 1
@@ -587,7 +597,7 @@ def keyBoardEnter(dataEntries):
     time.sleep(5)
 
     i = 0
-    while i < len(dataEntries[0]):
+    while i < len(dataEntries[1]):
     
         #TYPE IN CODE, MOVE TO $AMOUNT
         keyboard.type(str(dataEntries[1][i]))
@@ -612,22 +622,22 @@ def keyBoardEnter(dataEntries):
         time.sleep(0.3)
         keyboard.release(Key.enter)
         time.sleep(0.4)
-        if dataEntries[1][i] == 68:
+        if int(dataEntries[1][i]) == 68:
             keyboard.press(Key.enter)
             time.sleep(0.3)
             keyboard.release(Key.enter)
 
-        elif dataEntries[1][i] == 33 and int(dataEntries[2][i]) > 350 :
+        elif int(dataEntries[1][i]) == 34 and int(dataEntries[2][i]) > 350 :
             keyboard.press(Key.enter)
             time.sleep(0.3)
             keyboard.release(Key.enter)
 
-        elif dataEntries[1][i] == 66 and int(dataEntries[2][i]) > 35 :
+        elif int(dataEntries[1][i]) == 66 and int(dataEntries[2][i]) > 35 :
             keyboard.press(Key.enter)
             time.sleep(0.3)
             keyboard.release(Key.enter)
             
-        elif dataEntries[1][i] == 20 and int(dataEntries[2][i]) > 350 :
+        elif int(dataEntries[1][i] == 20) and int(dataEntries[2][i]) > 300 :
             keyboard.press(Key.enter)
             time.sleep(0.3)
             keyboard.release(Key.enter)

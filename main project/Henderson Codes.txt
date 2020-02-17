@@ -27,3 +27,11 @@ FUEL TAX		20
 TOLL REIMB		107
 Leased Percentage Pay	10
 Reefer Fuel Surcharge	70
+Maintenance Cost	77
+Legal Shield		36
+Qualcomm Fee		55
+RIDER POLICY LEASE	28
+Road Hazard Coverage	28
+Leased Operator Detention Pay	11
+REIMB SP REQUEST ESCROW	9105
+ESCROW INTEREST		11

@@ -1,0 +1,2 @@
+C:\Users\pyrodraco\Documents\GitHub\Typer\main project
+pyinstaller --onefile --noconsole Typer.py
