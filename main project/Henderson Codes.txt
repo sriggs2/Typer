@@ -1,5 +1,6 @@
 ADVANCES		40
 Comdata Funded fee	34
+Reefer Fuel Reimb	107
 DEF			77
 FUEL OPERATOR		63
 Reefer Fuel Leased	69
@@ -35,3 +36,194 @@ Road Hazard Coverage	28
 Leased Operator Detention Pay	11
 REIMB SP REQUEST ESCROW	9105
 ESCROW INTEREST		11
+Referral		11
+LUMPER REIMB OPER	107
+Fuel:			63
+Split Drop Pay		107
+I/C Insurance		28
+Lease Mileage Overage	13
+Early Termination fee	13
+Incident Claim//	28
+PALLET REIMB		107
+Storage Unit Rental	39
+LOADLOCK REIMB		107
+Shop Supplies		74
+Leased Retention Bonus	11
+Prime Extra Pay		11
+Earning Fuel Surcharge	70
+ESCROW DEDUCTION	105
+breakdown/reimb		107
+Tax prep		36
+Trk recovery		11
+FUEL DISCOUNT		963
+Motel Reimbursement-lease	107
+SAFETY VEST		74
+Check fee		34
+CS#			106
+Fees:			34
+Portion Pay Deduction	109
+LEASE STOP PAY		11
+Misc:			77
+Performance Incentive	11
+Fuel Surcharge 		70
+Lease Mileage Overage	13
+Advance:		40
+Split Drop Deduction	109
+Image Trips		34
+Check Fee		34
+Back Debt loan		109
+OPERATOR LAYOVER PAY	11
+Portion Pay		11
+ESCORT FEE		34
+escort fee		34
+Rat traps		74
+New LLC set up		34
+OPERATOR REPAIR		77
+EXTRA PAY		11
+Storage Unit Reimbursement	39
+Lease Retention Reefe	11
+Leased Accessorial Pay	11
+Hoodie			109
+SHIRTS, HAT		109
+Prime Accounting service	36
+Overweight ticket	109
+GATE FEE		59
+Misc.			77
+Maint Escrow		105
+ReeferFuelLeased	69
+Tractor Rental		13
+OPERATOR REPAIR		77
+SHOP REPAIR LOAN	108
+ADM FEE			34
+TRAILER LEASE		46
+SALES TAX		39
+TAG, TAXES		60
+ACC INS			31
+SCANNING FEE		34
+TRACTOR LEASE		13
+ESCROW			105
+QUALCOMM		55
+FUEL SURCHARGE		70
+SHOP WORK		77
+TOLLS 			59
+IFTA 			20
+PHYSICAL DAMAGE INS	28
+BOBTAIL 		29
+PREPASS MONTHLY FEE	59
+DETENTION 		11
+TRAILER 		46
+ACCOUNTING SERVICE	36
+ACC SERV		36
+PASS INS		28
+GARNISHMENTS		106
+REEDY BR LOAN		108
+REEDY TRK LEASE PAYMENT	13
+ADVANCE 		40
+Oil:			77
+WASH			77
+POPE BBQ deduction	109
+SAFETY BONUS		11
+wash			77
+SIGN ON BONUS		11
+Interest on average balance	11
+TARP PAY		11
+SATELLITE HARDWARE	55
+SATELLITE CHARGE	68
+STOP PAY		11
+lumper			33
+SHOP REPAIRS		77
+AFLAC 			109
+BOB-TAIL		29
+UNLOAD REIMBURSE	10
+OCCUPATIONAL ACCIDENT	31
+Reefer			69
+MT MILES		11
+TRACTOR TRAILER LAYOVER	11
+per Prime		77
+Misc. Deduction		40
+GAR #			106
+SHIRTS, SWEATS, GLOVES	109
+Physicals		39
+Satellite Communications Fee	55
+Safety Charges		77
+Water bottle & Jacket	109
+Truck Washes		77
+Postal charges		34
+GARN			106
+Trailer Management Fee Earning	11
+BOETM			77
+Took OOS		11
+Stop Off		11
+Comdata Funded fee	34
+Qualcomm Fee		55
+OPERATOR REPAIR		77
+Truck Washes		77
+Prev Lease Debt		109
+PET DEPOSITS		50
+Maintenance Debt	77
+Fuel & Road Use Taxes	20
+Tolls			59
+Tractor Fuel Purchases	63
+Advances Taken		40
+Truck Washes		77
+Comdata Card		34
+Fuel & Road Use Taxes	20
+Occupational Incident Ins	31
+Miscellaneous Deductions	39
+Base Plates & Permits	60
+Federal Highway Use Tax	67
+CS #			106
+Deductible Reduction Program	28
+Document Scanning Fee		34
+Base Message Fee	55
+Bobtail Insurance	29
+Physical Damage Ins	28
+Tolls			59
+EpicVue			68
+Company Detention pay	11
+IC Health Insurance	48
+Tractor Lease Payment	13
+Personal Escrow		105
+Lease Mileage Overage	13
+Performance Escrow	105
+Tractor Maintenance	77
+RIDER POLICY		28
+Tractor Finance Payment	13
+ComdataFundedfee	34
+TONU			11
+Lease Debt		109
+Oil & Antifreeze	77
+Performance Bonus	11
+Fuel & Road Use Taxes	20
+Road Hazard Ins		28
+Tractor Fuel Surcharge	70
+Retention Bonus		11
+Fixed Cost Maintenance	77
+EpicVue			68
+Layover Pay		11
+Detention Comp		11
+Percentage Comp		10
+Fixed Cost Maintenance	77
+Extra Pay		11
+Excess Mileage		13
+SECURITY DEPOSIT	39
+Truck/Trailer Washes:	77
+Maintenance Deduction	77
+TRACTOR FUEL		63
+CHARGE PO FEE		34
+REEFER FUEL 		69
+FUEL CARD CHARGE	1
+COMDATA FUNDED FEE	34
+Toll Earnings		11
+Comdata Card		34
+Lumper Reimb		33
+Late Fee Reimbursement	34
+COMCHECK FEE		34
+FUEL CARD CHARGE	34
+Home Time Escrow Deduction	105
+COMPANY STORE		74
+Communications Equipment	55
+Leased Safety Bonus		11
+Percentage Comp		10
+Loan Repayment		109
+Truck Camera		68

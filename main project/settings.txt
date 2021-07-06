@@ -1,9 +1,10 @@
 mouse position xOne 0
-mouse position yOne 10
-jumpOne 30
-jumpTwo 40
-mouse position xTwo 0
-mouse position yTwo 24
-sleep time per move .1
-sleep time after enter .1
-left shift 75
+mouse position yOne 52
+jumpOne 55
+jumpTwo 68
+mouse position xTwo 10
+mouse position yTwo 22
+sleep time per move 0.01
+sleep time after enter 0.5
+left shift 8	
+Roadrunner Temperature Controlled
